@@ -1,0 +1,19 @@
+{
+  "name": "Async Css",
+  "authors": [
+    "Ilio Junior <junior@ingadigital.com.br>"
+  ],
+  "description": "Framework for load Css asynchronous",
+  "main": "async.css.js",
+  "keywords": [
+    "Async",
+    "async",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/iliojunior/AsyncCss",
+  "private": true,
+  "dependencies": {
+    "jquery": "^1.3.x"
+  }
+}
