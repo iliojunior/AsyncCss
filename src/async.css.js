@@ -2,11 +2,9 @@
 
     'use strict';
 
-    var estilos = $("link[async]");
+    var estilos = $("link[media=bogus]");
 
     estilos.each(function (i) {
-        $(this).attr("media", "bogus");
-
         $(this).load(function (evt) {
             $(this).removeAttr("media");
         });
